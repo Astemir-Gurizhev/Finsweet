@@ -36,16 +36,13 @@
     font-weight: 500; 
     color:  #FFD3AF;
 }
-.header-menu__item:last-child {
-    display: flex;
-    align-items: center;
-}
-.header-menu__item:last-child::after {
+
+.header-menu__clone:last-child::after {
     display: inline-block;
     content: '';
-    background: url('../images/header/arr.png') 0 7px no-repeat;
-    width: 20px;
-    height: 20px;
+    background: url('../images/header/arr.png')  no-repeat;
+    width: 25px;
+    height: 8px;
     margin-left: 8px;
 } 
 
