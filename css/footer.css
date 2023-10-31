@@ -1,0 +1,30 @@
+.footer {
+    padding: 28px 0;
+    background: #FFE6D2;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-logo {
+    margin-right: 42px;
+}
+.footer-left__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer-right {
+    display: flex;
+}
+.footer-right__item:not(:last-child) {
+    margin-right: 26.67px;
+}
