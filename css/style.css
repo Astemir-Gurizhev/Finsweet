@@ -1,4 +1,8 @@
+/*---------------------FIRST-----------------------*/
+
 .first {
+    padding-top: 96px;
+    padding-bottom: 32px;
     background: #232536;
 }
 .first-row {
@@ -9,6 +13,7 @@
 .first-left {
 }
 .first-left__title {
+    
     max-width: 624px;
     margin-bottom: 24px;
     color: #FFF;
@@ -20,7 +25,7 @@
 }
 .first-left__subtitle {
     max-width: 528px;;
-    margin-bottom: 32px;
+    margin-bottom: 52px;
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -57,4 +62,35 @@
     width: 25px;
     height: 10px;
     margin-left: 16px;
+}
+
+.first-clients {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-clients__text {
+}
+.first-clients-text__subtitle {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    opacity: 0.6;
+}
+.first-clients-text__title {
+    width: 187px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.first-clients__icon {
+    margin-left: 32px;
 }
