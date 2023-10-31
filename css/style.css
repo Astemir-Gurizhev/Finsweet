@@ -115,7 +115,6 @@
 .about-info {
     margin-bottom: 48px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .about-info__left {
@@ -126,9 +125,9 @@
     font-weight: 600;
     line-height: 58px; 
 }
-.about-info__right {
-}
+
 .about-info-right__title {
+    margin-bottom: 16px;
     color: #232536;
     font-family: Poppins;
     font-size: 36px;
@@ -150,8 +149,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.about-images__item {
-}
+
 .about-progress {
     display: flex;
     align-items: center;
