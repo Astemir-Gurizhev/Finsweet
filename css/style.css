@@ -10,8 +10,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.first-left {
-}
+
 .first-left__title {
     
     max-width: 624px;
@@ -71,8 +70,7 @@
     justify-content: space-between;
 }
 
-.first-clients__text {
-}
+
 .first-clients-text__subtitle {
     color: #FFF;
     font-family: Poppins;
@@ -93,4 +91,109 @@
 }
 .first-clients__icon {
     margin-left: 32px;
+}
+
+/*---------------------ABOUT-----------------------*/
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 98px;
+    background: #FFF;
+}
+.about-title {
+    margin-bottom: 16px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.87;
+}
+.about-info {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info__left {
+    color: #232536;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px; 
+}
+.about-info__right {
+}
+.about-info-right__title {
+    color: #232536;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; 
+}
+.about-info-right__text {
+    color: #5D5F6D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.about-images {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-images__item {
+}
+.about-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-progress__left {
+    display: flex;
+}
+.about-progress-left__item {
+    margin-right: 66px;
+}
+.progress-left-item__num {
+    margin-bottom: 8px;
+    color: #232536;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+.progress-left-item__text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.about-progress__right {
+    color: #444CFC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    opacity: 0.87;
+}
+.about-progress__right::after {
+    margin-left: 16px;
+    display: inline-block;
+    content:'';
+    background:url('../images/about/arr.svg') no-repeat;
+    width: 25px;
+    height: 9px;
 }
