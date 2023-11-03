@@ -75,11 +75,86 @@
         width: 1100px
         height: 195px
         flex-shrink: 0
-        fill: var(--Black, #232536)
-        
-
-        
+        fill: var(--Black, #232536)       
     
 
-.greed
-    color: black
+
+            
+        
+.grid-container  
+    margin-bottom: 96px
+    background: #ECF8F9
+    width: 1280px
+    height: 949px
+    flex-shrink: 0
+    
+    display: grid
+    justify-content: center
+    align-content: center
+    row-gap: 32px
+    column-gap: 32px
+    // grid-template: repeat(3, 1fr) / repeat(3, 500px)
+    grid-template-areas: 'A B C' 'D E F' 'G H I'  
+    grid-template-columns: 354px 354px 354px
+    grid-template-rows:  243px 243px 243px  
+
+    &__moda
+        color: var(--Black, #232536)
+        /* H6 Heading */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px /* 175% */    
+    &__A
+        grid-area: A        
+    &__B
+        grid-area: B
+    &__C
+        grid-area: C
+    &__D
+        grid-area: D
+    &__E
+        grid-area: E
+    &__F
+        grid-area: F
+    &__G
+        grid-area: G
+    &__H
+        grid-area: H
+    &__I
+        grid-area: I
+
+.grid-container_moda
+    
+    flex-shrink: 0
+    background: #FFF
+    &
+        padding: 48px 0 0 48px
+        color: var(--Black, #232536)
+        /* H6 Heading */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px /* 175% */  
+        margin-bottom: 10px      
+    &__light
+        color: var(--Black, #232536)
+        /* Paragraph */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px /* 150% */
+        margin-bottom: 52px    
+    &__href
+        color: var(--iris-100, #5D5FEF)
+        /* Text link */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 500
+        line-height: 24px /* 150% */
+        &::after             
+            content:"\00a0" "\00a0" "\00a0" url(../images/careers/Icon.png)
