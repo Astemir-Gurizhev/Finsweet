@@ -1,13 +1,15 @@
 .header    
     margin-bottom: 96px
-
-.careers    
-    max-width: 1189.672px
-    // min-height: 697px
-    flex-shrink: 0
-    margin-bottom: 96px
     
-    background: url(../images/careers/Shapes.png) right top no-repeat
+    
+.careers-content
+    position: relative
+    right: -25px    
+    width: 1189.672px
+    height: 697px
+    flex-shrink: 0 
+    background: #FFF   
+    background: url(../images/careers/Shapes.png) right top no-repeat  
     &__box
         margin-bottom: 55px
     &__box-h1
@@ -37,7 +39,7 @@
         line-height: 58px /* 120.833% */
     &__box-h3
         height: 48px
-        margin-botom: 64px
+        margin-bottom: 64px
         color: var(--Black, #232536)
         text-align: center
         /* Paragraph */
@@ -80,14 +82,17 @@
 
 
             
-        
-.grid-container  
+.grid-section
     margin-bottom: 96px
-    background: #ECF8F9
-    width: 1280px
-    height: 949px
-    flex-shrink: 0
     
+    
+    
+
+.grid-container  
+    flex-shrink: 0
+    background: #ECF8F9
+    height: 949px
+    width: 1280px
     display: grid
     justify-content: center
     align-content: center
@@ -129,7 +134,7 @@
     
     flex-shrink: 0
     background: #FFF
-    &
+    &__bold
         padding: 48px 0 0 48px
         color: var(--Black, #232536)
         /* H6 Heading */
@@ -140,6 +145,7 @@
         line-height: 28px /* 175% */  
         margin-bottom: 10px      
     &__light
+        padding: 48px 0 0 48px
         color: var(--Black, #232536)
         /* Paragraph */
         font-family: Poppins
@@ -149,6 +155,7 @@
         line-height: 24px /* 150% */
         margin-bottom: 52px    
     &__href
+        padding: 48px 0 0 48px
         color: var(--iris-100, #5D5FEF)
         /* Text link */
         font-family: Poppins
@@ -158,3 +165,118 @@
         line-height: 24px /* 150% */
         &::after             
             content:"\00a0" "\00a0" "\00a0" url(../images/careers/Icon.png)
+
+
+
+                /*--------------- our work cuite*/
+
+.work-culture
+    width: 1600px
+    height: 884px
+    flex-shrink: 0
+    background: #FAFAFC
+    &__h1
+        margin-bottom: 16px
+        color: #000
+        opacity: 0.87
+        /* Caption */
+        font-family: Poppins
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 20px /* 142.857% */
+        letter-spacing: 3px
+        text-transform: uppercase
+    &__h2
+        margin-bottom: 24px
+        color: #232536
+        /* H3 Heading */
+        font-family: Poppins
+        font-size: 36px
+        font-style: normal
+        font-weight: 600
+        line-height: 54px /* 150% */
+    &__h3
+        margin-bottom: 64px
+        color: #232536
+            /* Paragraph */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px /* 150% */
+
+
+
+.work-culture
+    height: 884px
+    // width: 1597px
+    display: flex
+    &__content
+        justify-content: center
+        align-content:  center
+
+.workculture-grid  
+    flex-shrink: 0
+    
+    height: 692px
+    width: 1278px
+    display: grid
+    justify-content: center
+    align-content: center
+    row-gap: 12px
+    column-gap: 12px
+    // grid-template: repeat(3, 1fr) / repeat(3, 500px)
+    grid-template-areas: 'A B C' 'D E F'  
+    grid-template-columns: 419px 419px 419px
+    grid-template-rows:  188px 188px 188px  
+
+    &__moda
+        color: var(--Black, #232536)
+
+        /* Body/Body_Small */
+        font-family: Poppins
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: 20px /* 142.857% */   
+    &__A
+        grid-area: A        
+    &__B
+        grid-area: B
+    &__C
+        grid-area: C
+    &__D
+        grid-area: D
+    &__E
+        grid-area: E
+    &__F
+        grid-area: F
+    
+
+.workculture-grid_moda    
+    
+    &__bold
+        padding: 48px 0 0 48px
+        color: var(--Black, #232536)
+        /* H6 Heading */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px /* 175% */  
+        margin-bottom: 10px      
+    &__light
+        padding: 48px 0 0 48px
+        color: var(--Black, #232536)
+        /* Paragraph */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px /* 150% */
+        margin-bottom: 52px    
+    
+
+
+
