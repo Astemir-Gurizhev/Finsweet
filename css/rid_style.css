@@ -3,16 +3,19 @@
   margin-bottom: 96px;
 }
 
-.careers {
-  max-width: 1189.672px;
+.careers-content {
+  position: relative;
+  right: -25px;
+  width: 1189.672px;
+  height: 697px;
   flex-shrink: 0;
-  margin-bottom: 96px;
+  background: #FFF;
   background: url(../images/careers/Shapes.png) right top no-repeat;
 }
-.careers__box {
+.careers-content__box {
   margin-bottom: 55px;
 }
-.careers__box-h1 {
+.careers-content__box-h1 {
   height: 20px;
   margin-bottom: 24px;
   color: var(--Black, #232536);
@@ -27,7 +30,7 @@
   opacity: 0.87;
   text-align: center;
 }
-.careers__box-h2 {
+.careers-content__box-h2 {
   height: 174px;
   margin-bottom: 24px;
   color: var(--Black, #232536);
@@ -39,7 +42,7 @@
   font-weight: 600;
   line-height: 58px;
 }
-.careers__box-h3 {
+.careers-content__box-h3 {
   height: 48px;
   margin-bottom: 64px;
   color: var(--Black, #232536);
@@ -52,7 +55,7 @@
   line-height: 24px;
   opacity: 0.87;
 }
-.careers__h4 {
+.careers-content__h4 {
   color: #232536;
   margin-bottom: 16px;
   /* Paragraph Large */
@@ -63,7 +66,7 @@
   text-align: center;
   line-height: 28px;
 }
-.careers__finger {
+.careers-content__finger {
   text-align: center;
   color: #232536;
   font-family: Poppins;
@@ -72,7 +75,7 @@
   font-weight: 500;
   line-height: 24px;
 }
-.careers__img {
+.careers-content__img {
   position: relative;
   margin-bottom: 51px;
   left: 50px;
@@ -82,12 +85,15 @@
   fill: var(--Black, #232536);
 }
 
-.grid-container {
+.grid-section {
   margin-bottom: 96px;
-  background: #ECF8F9;
-  width: 1280px;
-  height: 949px;
+}
+
+.grid-container {
   flex-shrink: 0;
+  background: #ECF8F9;
+  height: 949px;
+  width: 1280px;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -139,7 +145,7 @@
   flex-shrink: 0;
   background: #FFF;
 }
-.grid-container_moda {
+.grid-container_moda__bold {
   padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* H6 Heading */
@@ -151,6 +157,7 @@
   margin-bottom: 10px;
 }
 .grid-container_moda__light {
+  padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* Paragraph */
   font-family: Poppins;
@@ -161,6 +168,7 @@
   margin-bottom: 52px;
 }
 .grid-container_moda__href {
+  padding: 48px 0 0 48px;
   color: var(--iris-100, #5D5FEF);
   /* Text link */
   font-family: Poppins;
@@ -171,4 +179,119 @@
 }
 .grid-container_moda__href::after {
   content: " " " " " " url(../images/careers/Icon.png);
+  /*--------------- our work cuite*/
+}
+
+.work-culture {
+  width: 1600px;
+  height: 884px;
+  flex-shrink: 0;
+  background: #FAFAFC;
+}
+.work-culture__h1 {
+  margin-bottom: 16px;
+  color: #000;
+  opacity: 0.87;
+  /* Caption */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.work-culture__h2 {
+  margin-bottom: 24px;
+  color: #232536;
+  /* H3 Heading */
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+}
+.work-culture__h3 {
+  margin-bottom: 64px;
+  color: #232536;
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work-culture {
+  height: 884px;
+  display: flex;
+}
+.work-culture__content {
+  justify-content: center;
+  align-content: center;
+}
+
+.workculture-grid {
+  flex-shrink: 0;
+  height: 692px;
+  width: 1278px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  row-gap: 12px;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  grid-template-areas: "A B C" "D E F";
+  grid-template-columns: 419px 419px 419px;
+  grid-template-rows: 188px 188px 188px;
+}
+.workculture-grid__moda {
+  color: var(--Black, #232536);
+  /* Body/Body_Small */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.workculture-grid__A {
+  grid-area: A;
+}
+.workculture-grid__B {
+  grid-area: B;
+}
+.workculture-grid__C {
+  grid-area: C;
+}
+.workculture-grid__D {
+  grid-area: D;
+}
+.workculture-grid__E {
+  grid-area: E;
+}
+.workculture-grid__F {
+  grid-area: F;
+}
+
+.workculture-grid_moda__bold {
+  padding: 48px 0 0 48px;
+  color: var(--Black, #232536);
+  /* H6 Heading */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.workculture-grid_moda__light {
+  padding: 48px 0 0 48px;
+  color: var(--Black, #232536);
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 52px;
 }/*# sourceMappingURL=rid_style.css.map */
