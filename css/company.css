@@ -29,11 +29,84 @@
     font-style: normal;
     font-weight: 400;
 }
+.header{
+    margin: 0 0 96px 0;
+}
 
 /* company */
 .company{
     background: #ffffff;
     color: #232536;
+}
+.company__icons{
+    display: flex;
+    position: relative;
+    margin: 0 0 50px 0;
+}
+.company__icons.img-icon{
+    display: inline;
+}
+.blue-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.colorful-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.company-name-block{
+    margin: 24px 0 20px 0;
+}
+.company__title{
+    max-width: 664px;
+    max-height: 174px;
+    margin: 0 0 24px 0;
+}
+.company__text{
+    max-width: 719px;
+    max-height: 48px;
+    margin: 0 0 64px 0;
+}
+
+.company__images{
+    display: flex;
+    justify-content: space-between;
+}
+.company__image{
+    display: block;
+    position: relative;
+}
+.company__image:last-child{
+
+}
+.company__image:last-child::after{
+    /* display: block; */
+    /* content: "";
+    background: url("/images/company/company-row/Rectangle-gen.png");
+    width: 346px;
+    height: 222px;
+    position: absolute;
+    top: -50px;
+    left: 0; */
+    
+    /* content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background-image: url("/images/company/company-row/Rectangle-gen.png");
+    background-size: cover; */
+
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Регулируйте это значение, чтобы изменить положение линии */
+    left: 0;
+    width: 100%;
+    height: 1px; /* Регулируйте это значение, чтобы изменить высоту линии */
+    background-color: black; /* Измените цвет линии по вашему выбору */
 }
 
 /* our_story */
