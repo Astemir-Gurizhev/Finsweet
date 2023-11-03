@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   margin-bottom: 96px;
 }
@@ -40,7 +41,7 @@
 }
 .careers__box-h3 {
   height: 48px;
-  margin-botom: 64px;
+  margin-bottom: 64px;
   color: var(--Black, #232536);
   text-align: center;
   /* Paragraph */
@@ -81,6 +82,93 @@
   fill: var(--Black, #232536);
 }
 
-.greed {
-  color: black;
+.grid-container {
+  margin-bottom: 96px;
+  background: #ECF8F9;
+  width: 1280px;
+  height: 949px;
+  flex-shrink: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  row-gap: 32px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  grid-template-areas: "A B C" "D E F" "G H I";
+  grid-template-columns: 354px 354px 354px;
+  grid-template-rows: 243px 243px 243px;
+}
+.grid-container__moda {
+  color: var(--Black, #232536);
+  /* H6 Heading */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.grid-container__A {
+  grid-area: A;
+}
+.grid-container__B {
+  grid-area: B;
+}
+.grid-container__C {
+  grid-area: C;
+}
+.grid-container__D {
+  grid-area: D;
+}
+.grid-container__E {
+  grid-area: E;
+}
+.grid-container__F {
+  grid-area: F;
+}
+.grid-container__G {
+  grid-area: G;
+}
+.grid-container__H {
+  grid-area: H;
+}
+.grid-container__I {
+  grid-area: I;
+}
+
+.grid-container_moda {
+  flex-shrink: 0;
+  background: #FFF;
+}
+.grid-container_moda {
+  padding: 48px 0 0 48px;
+  color: var(--Black, #232536);
+  /* H6 Heading */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.grid-container_moda__light {
+  color: var(--Black, #232536);
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 52px;
+}
+.grid-container_moda__href {
+  color: var(--iris-100, #5D5FEF);
+  /* Text link */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.grid-container_moda__href::after {
+  content: " " " " " " url(../images/careers/Icon.png);
 }/*# sourceMappingURL=rid_style.css.map */
