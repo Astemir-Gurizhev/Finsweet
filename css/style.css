@@ -349,3 +349,116 @@ line-height: 24px; /* 150% */
 }
 .about-progress__right {
 }
+
+
+/*---------------------PROCESS-----------------------*/
+
+.process {
+    padding: 96px 0;
+}
+
+.process-subtitle {
+    margin-bottom: 16px;
+    color: #000;
+
+/* Caption */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.process-title {
+    max-width: 733px;
+    margin-bottom: 16px;
+    color: #232536;
+
+/* H2 Heading */
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px; /* 120.833% */
+}
+.process-text {
+    max-width: 642px;
+    margin-bottom: 68px;
+    color: #232536;
+
+/* Paragraph */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.process-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.process-item {
+    position: relative;
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    padding-left: 32px;
+    padding-right: 11px;
+    margin-bottom: 48px;
+}
+.process-item:first-child::after {
+    content: '';
+    display: block;
+    background: url('../images/process/Shapes\ 1.png') no-repeat;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 398px;
+    height: 8px;
+}
+.process-item:last-child::before {
+    content: '';
+    display: block;
+    background: url('../images/process/Shapes\ 1.png') no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 398px;
+    height: 8px;
+}
+.process-item:not(:last-child) {
+   
+}
+.process-item__img {
+    margin-right: 16px;
+    width: 47px;
+    height: 47px;
+}
+.process-item__info {
+}
+.process-item-info__title {
+    margin-bottom: 6px;
+    color: #000;
+
+/* H6 Heading */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 175% */
+}
+.process-item-info__text {
+    max-width: 289px;
+    color: #232536;
+
+/* Paragraph */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
