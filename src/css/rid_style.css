@@ -1,20 +1,22 @@
 @charset "UTF-8";
 .header {
   margin-bottom: 96px;
-  /*dsfsdfkjkjkldsff2*/
+  /*987789*/
+}
+
+.careers {
+  border: 1px solid black;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  background: url(../images/careers/Shapes.png) right top no-repeat;
 }
 
 .careers-content {
-  position: relative;
-  right: -25px;
-  width: 1189.672px;
-  height: 697px;
-  flex-shrink: 0;
+  border: 1px solid green;
+  min-height: 697px;
+  flex-shrink: 1;
   background: #FFF;
-  background: url(../images/careers/Shapes.png) right top no-repeat;
-}
-.careers-content__box {
-  margin-bottom: 55px;
 }
 .careers-content__box-h1 {
   height: 20px;
@@ -77,24 +79,18 @@
   line-height: 24px;
 }
 .careers-content__img {
-  position: relative;
   margin-bottom: 51px;
-  left: 50px;
   width: 1100px;
   height: 195px;
   flex-shrink: 0;
   fill: var(--Black, #232536);
 }
 
-.grid-section {
-  margin-bottom: 96px;
-}
-
 .grid-container {
-  flex-shrink: 0;
+  margin-bottom: 96px;
   background: #ECF8F9;
   height: 949px;
-  width: 1280px;
+  max-width: 1280px;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -104,15 +100,6 @@
   grid-template-areas: "A B C" "D E F" "G H I";
   grid-template-columns: 354px 354px 354px;
   grid-template-rows: 243px 243px 243px;
-}
-.grid-container__moda {
-  color: var(--Black, #232536);
-  /* H6 Heading */
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px;
 }
 .grid-container__A {
   grid-area: A;
@@ -143,11 +130,12 @@
 }
 
 .grid-container_moda {
-  flex-shrink: 0;
+  padding: 48px 0 0 48px;
+  width: 354px;
+  height: 243px;
   background: #FFF;
 }
 .grid-container_moda__bold {
-  padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* H6 Heading */
   font-family: Poppins;
@@ -158,7 +146,6 @@
   margin-bottom: 10px;
 }
 .grid-container_moda__light {
-  padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* Paragraph */
   font-family: Poppins;
@@ -169,7 +156,6 @@
   margin-bottom: 52px;
 }
 .grid-container_moda__href {
-  padding: 48px 0 0 48px;
   color: var(--iris-100, #5D5FEF);
   /* Text link */
   font-family: Poppins;
@@ -183,7 +169,7 @@
   /*--------------- our work cuite*/
 }
 
-.work-culture {
+.work-culture__content {
   width: 1600px;
   height: 884px;
   flex-shrink: 0;
@@ -233,7 +219,6 @@
 }
 
 .workculture-grid {
-  flex-shrink: 0;
   height: 692px;
   width: 1278px;
   display: grid;
@@ -275,7 +260,6 @@
 }
 
 .workculture-grid_moda__bold {
-  padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* H6 Heading */
   font-family: Poppins;
@@ -286,7 +270,6 @@
   margin-bottom: 10px;
 }
 .workculture-grid_moda__light {
-  padding: 48px 0 0 48px;
   color: var(--Black, #232536);
   /* Paragraph */
   font-family: Poppins;

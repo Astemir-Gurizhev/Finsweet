@@ -2,18 +2,16 @@
     margin-bottom: 96px
     /*987789*/
     
+   
+.careers-content    
+    // border: 1px solid red
+    max-width: 1280px    
+    min-height: 697px
+    background: url(../images/careers/Shapes.png) right top no-repeat    
+       
     
-.careers-content
-    position: relative
-    right: -25px    
-    width: 1189.672px
-    height: 697px
-    flex-shrink: 0 
-    background: #FFF   
-    background: url(../images/careers/Shapes.png) right top no-repeat  
-    &__box
-        margin-bottom: 55px
-    &__box-h1
+    &__box-h1   
+        padding-left: 50px       
         height: 20px
         margin-bottom: 24px
         color: var(--Black, #232536)
@@ -28,6 +26,7 @@
         opacity: 0.87
         text-align: center
     &__box-h2
+        padding-left: 50px  
         height: 174px
         margin-bottom: 24px
         color: var(--Black, #232536)
@@ -39,6 +38,7 @@
         font-weight: 600
         line-height: 58px /* 120.833% */
     &__box-h3
+        padding-left: 50px  
         height: 48px
         margin-bottom: 64px
         color: var(--Black, #232536)
@@ -51,6 +51,7 @@
         line-height: 24px /* 150% */
         opacity: 0.87
     &__h4
+        padding-left: 50px  
         color: #232536
         margin-bottom: 16px
         /* Paragraph Large */
@@ -60,8 +61,8 @@
         font-weight: 500
         text-align: center
         line-height: 28px /* 155.556% */
-    &__finger
-        
+    &__finger    
+        padding-left: 50px    
         text-align: center
         color: #232536
         font-family: Poppins
@@ -69,31 +70,23 @@
         font-style: normal
         font-weight: 500
         line-height: 24px /* 100% */
-    &__img
-        position: relative
-        margin-bottom: 51px
-        
-        left: 50px
+    &__img        
+        padding-left: 100px
+        margin-bottom: 51px        
         // background: url(../images/careers/Image.svg), lightgray 50% / cover no-repeat
         width: 1100px
         height: 195px
         flex-shrink: 0
-        fill: var(--Black, #232536)       
-    
+        fill: var(--Black, #232536)           
 
-
-            
-.grid-section
-    margin-bottom: 96px
-    
     
     
 
 .grid-container  
-    flex-shrink: 0
+    margin-bottom: 96px     
     background: #ECF8F9
     height: 949px
-    width: 1280px
+    max-width: 1280px
     display: grid
     justify-content: center
     align-content: center
@@ -104,14 +97,7 @@
     grid-template-columns: 354px 354px 354px
     grid-template-rows:  243px 243px 243px  
 
-    &__moda
-        color: var(--Black, #232536)
-        /* H6 Heading */
-        font-family: Poppins
-        font-size: 16px
-        font-style: normal
-        font-weight: 600
-        line-height: 28px /* 175% */    
+    
     &__A
         grid-area: A        
     &__B
@@ -131,12 +117,12 @@
     &__I
         grid-area: I
 
-.grid-container_moda
-    
-    flex-shrink: 0
+.grid-container_moda  
+    padding: 48px 0 0 48px   
+    width: 354px
+    height: 243px    
     background: #FFF
-    &__bold
-        padding: 48px 0 0 48px
+    &__bold                 
         color: var(--Black, #232536)
         /* H6 Heading */
         font-family: Poppins
@@ -145,8 +131,7 @@
         font-weight: 600
         line-height: 28px /* 175% */  
         margin-bottom: 10px      
-    &__light
-        padding: 48px 0 0 48px
+    &__light                
         color: var(--Black, #232536)
         /* Paragraph */
         font-family: Poppins
@@ -155,8 +140,7 @@
         font-weight: 400
         line-height: 24px /* 150% */
         margin-bottom: 52px    
-    &__href
-        padding: 48px 0 0 48px
+    &__href                
         color: var(--iris-100, #5D5FEF)
         /* Text link */
         font-family: Poppins
@@ -171,12 +155,17 @@
 
                 /*--------------- our work cuite*/
 
-.work-culture
-    width: 1600px
-    height: 884px
-    flex-shrink: 0
-    background: #FAFAFC
+.workculture
+    display: flex
+    justify-content: center
+    max-width: 1600px
+    min-height: 884px    
+    background: #FAFAFC 
+        
+    
+.work-culture               
     &__h1
+        padding-top: 96px
         margin-bottom: 16px
         color: #000
         opacity: 0.87
@@ -206,41 +195,23 @@
         font-style: normal
         font-weight: 400
         line-height: 24px /* 150% */
-
-
-
-.work-culture
-    height: 884px
-    // width: 1597px
-    display: flex
-    &__content
+    &__grid
+        max-width: 1281px
+        min-height: 388px  
+        display: grid
         justify-content: center
-        align-content:  center
+        align-content: center
+        row-gap: 12px
+        column-gap: 12px
+        grid-template-areas: 'A B C' 'D E F'  
+        // grid-template-columns: 419px 419px 419px        
+        grid-template-rows:  188px 188px  
+        grid-template-columns: repeat(auto-fit, minmax(120px,419px))
+                
+        
+        
 
-.workculture-grid  
-    flex-shrink: 0
-    
-    height: 692px
-    width: 1278px
-    display: grid
-    justify-content: center
-    align-content: center
-    row-gap: 12px
-    column-gap: 12px
-    // grid-template: repeat(3, 1fr) / repeat(3, 500px)
-    grid-template-areas: 'A B C' 'D E F'  
-    grid-template-columns: 419px 419px 419px
-    grid-template-rows:  188px 188px 188px  
-
-    &__moda
-        color: var(--Black, #232536)
-
-        /* Body/Body_Small */
-        font-family: Poppins
-        font-size: 14px
-        font-style: normal
-        font-weight: 400
-        line-height: 20px /* 142.857% */   
+.workculture-grid        
     &__A
         grid-area: A        
     &__B
@@ -255,10 +226,10 @@
         grid-area: F
     
 
-.workculture-grid_moda    
-    
-    &__bold
-        padding: 48px 0 0 48px
+.workculture-grid_moda     
+    padding: 32px 0 0 32px   
+    background: #FFF    
+    &__bold          
         color: var(--Black, #232536)
         /* H6 Heading */
         font-family: Poppins
@@ -267,16 +238,50 @@
         font-weight: 600
         line-height: 28px /* 175% */  
         margin-bottom: 10px      
-    &__light
-        padding: 48px 0 0 48px
+    &__light        
         color: var(--Black, #232536)
         /* Paragraph */
         font-family: Poppins
         font-size: 16px
         font-style: normal
         font-weight: 400
-        line-height: 24px /* 150% */
-        margin-bottom: 52px    
+        line-height: 24px /* 150% */   
+        padding-bottom: 32px       
+    &__circle        
+        margin-bottom: 8px
+        display: flex
+        justify-content: center
+        align-content: center
+        width: 40px
+        height: 40px 
+        border-radius: 50px 
+        background: #FFD3AF80
+        fill: rgba(255, 211, 175, 0.50)
+        img
+            width: 14.47px
+            color: #000
+            font-family: Poppins
+            font-size: 16px
+            font-style: normal
+            font-weight: 400
+            line-height: 20px /* 125% */
+
+@media (max-width: 1200px)
+    .workculture-grid
+        grid-template-areas: 'A B' 'C D' 'E F' 
+
+@media (max-width: 800px)
+    .workculture-grid
+        grid-template-areas: 'A' 'B' 'C' 'D' 'E' 'F'
+    
+  
+
+
+/* ---------------   CTA   NEWSLETTER  --------------*/
+.newslettern
+    padding-top: 96px
+    border: 1px solid black
+    
     
 
 

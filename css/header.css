@@ -3,18 +3,22 @@
     padding: 28px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
+
 .container {
     max-width: 1256px;
     margin: 0 auto;
 }
+
 .header-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header-menu {
     display: flex;
 }
+
 .header-menu__item:not(:last-child) {
     margin-right: 32px;
 }
@@ -33,18 +37,18 @@
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500; 
-    color:  #FFD3AF;
+    font-weight: 500;
+    color: #FFD3AF;
 }
 
 .header-menu__clone:last-child::after {
     display: inline-block;
     content: '';
-    background: url('../images/header/arr.png')  no-repeat;
+    background: url('../images/header/arr.png') no-repeat;
     width: 25px;
     height: 8px;
     margin-left: 8px;
-} 
+}
 
 .header-menu__link.active {
     opacity: 1;
