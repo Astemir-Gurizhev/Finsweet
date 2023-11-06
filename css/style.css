@@ -62,6 +62,9 @@
     height: 10px;
     margin-left: 16px;
 }
+.first-right {
+    position: relative;
+}
 
 .first-clients {
     margin-top: 33px;
@@ -144,10 +147,21 @@
     line-height: 24px; 
 }
 .about-images {
+    position: relative;
     margin-bottom: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.about-images::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url('../images/about/Shapes.png') no-repeat;
+    width: 18px;
+height: 446px;
+    right: -18px;
+    top: 0;
 }
 
 .about-progress {
@@ -244,7 +258,26 @@ line-height: 24px;
 max-width: 622px;
 }
 .want-right {
-   
+   position: relative;
+}
+.want-right::before {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url('../images/read/Shape.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+}
+.want-right::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url('../images/want/line.png') no-repeat;
+    height: 8.002px;
+    width: 514.998px;
+    bottom: 0;
 }
 .want-right__item {
     
@@ -354,7 +387,7 @@ line-height: 24px; /* 150% */
 /*---------------------PROCESS-----------------------*/
 
 .process {
-    padding: 96px 0;
+    padding-top: 96px;
     
 }
 
@@ -548,4 +581,91 @@ font-weight: 600;
 line-height: 36px; /* 150% */
 }
 .about-progress__right {
+}
+
+
+/*---------------------READ-----------------------*/
+
+.sub {
+    
+}
+
+
+
+
+.sub-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary-blue, #666DFF);
+    padding: 96px;
+}
+.sub-row::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background: url('../images/sub/Shapes.png') no-repeat;
+    left: 0;
+    top: 0;
+    width: 88.588px;
+    height: 80px;
+}
+.sub-row::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background: url('../images/sub/Shapes\ \(1\).png') no-repeat;
+    height: 333px;
+    width: 24px;
+    right: 0px;
+}
+
+.sub-left {
+    
+}
+.sub-subtitle {
+    margin-bottom: 13px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.sub-title {
+    max-width: 488px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px; /* 150% */
+}
+.sub-right {
+}
+.sub-right__input {
+    padding: 20px 29px;
+    width: 454px;
+height: 64px;
+    background: #FFF;
+    color: #232536;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.sub-right__input::placeholder {
+    color: #232536;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+opacity: 0.4;
+line-height: 24px; /* 150% */
 }
