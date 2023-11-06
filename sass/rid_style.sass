@@ -1,3 +1,5 @@
+.content
+    margin-bottom: 64px
 .header    
     margin-bottom: 96px
     /*987789*/
@@ -279,10 +281,182 @@
 
 /* ---------------   CTA   NEWSLETTER  --------------*/
 .newslettern
-    padding-top: 96px
-    border: 1px solid black
+    display: flex
+    position: relative
+    margin-bottom: 96px    
+    width: 1280px
+    height: 333px
+    &__img
+        position: absolute
+        left:0
+        top: 0
+    &__h1
+        padding-top: 96px
+        margin-bottom: 12px
+        color: #FFF
+        /* Caption */
+        font-family: Poppins
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 20px /* 142.857% */
+        letter-spacing: 3px
+        text-transform: uppercase
+    &__h2
+        padding-bottom: 96px
+        width: 488px
+        color: #FFF
+        /* H3 Heading */
+        font-family: Poppins
+        font-size: 36px
+        font-style: normal
+        font-weight: 600
+        line-height: 54px /* 150% */
+    &__blue
+        display: flex
+        justify-content: space-around
+        align-content: center
+        width: 1256px
+        height: 333px
+        background: var(--secondary-blue, #666DFF)
+    &__blue-right               
+        padding-top: 141px
+        padding-bottom: 128px
+    &__input-email
+        width: 454px
+        height: 64px
+        color: black
+    &__rectange-top
+        width: 24px
+        height: 75px
+        background: #FFA155
+    &__rectange-center
+        width: 24px
+        height: 195px
+        background: #FFD3AF
+    &__rectange-bottom
+        width: 24px
+        height: 63px
+        background: #4F56FF
+        
     
     
 
+/*----------- footer top --------------*/
+
+.footer-top
+    width: 1278px
+    height: 416px
+    &__img
+        margin-bottom: 32px
+    &__hr
+        margin-bottom: 16px
+        width: 268px
+        height: 1px
+        background: rgba(0, 0, 0, 0.08)
+    &__main
+        display: flex
+        justify-content: space-start
+        gap: 204px
+    &__right
+        display: flex
+        justify-content: space-start
+        gap: 50px
+    &__bottom
+        margin-bottom: 64px
+        display: flex
+        justify-content: space-between
+        align-items: end
+        
+.footer-top-main    
+    &__left-make
+        margin-bottom: 40px
+        color: #232536
+        /* H2 Heading */
+        font-family: Poppins
+        font-size: 48px
+        font-style: normal
+        font-weight: 600
+        line-height: 58px /* 120.833% */
+    &__talk
+        margin-bottom: 28px
+        color: #232536
+        /* H4 Heading */
+        font-family: Poppins
+        font-size: 24px
+        font-style: normal
+        font-weight: 600
+        line-height: 36px /* 150% */
+    &__left-num
+        color: #232536
+        margin-bottom: 4px
+        /* Paragraph Large */
+        font-family: Poppins
+        font-size: 18px
+        font-style: normal
+        font-weight: 500
+        line-height: 28px /* 155.556% */
+    &__left-email
+        color: #232536
+        margin-bottom: 14px
+        /* Paragraph Large */
+        font-family: Poppins
+        font-size: 18px
+        font-style: normal
+        font-weight: 500
+        line-height: 28px /* 155.556% */  
+    
+        
+    &__ul  
+        margin-bottom: 15px              
+        a
+            padding-top: 15px         
+            color: #232536
+            /* H6 Heading */
+            font-family: Poppins
+            font-size: 16px
+            font-style: normal
+            font-weight: 600
+            line-height: 28px /* 175% */
+    &__li  
+        padding-top: 15px         
+        a    
+            padding-top: 15px  
+            color: #232536
+            /* Paragraph Small */
+            font-family: Poppins
+            font-size: 14px
+            font-style: normal
+            font-weight: 500
+            line-height: 20px /* 142.857% */
+    
+.footer-top-bottom
+    
+    &__dlf
+        color: #232536
+        /* Paragraph Small */
+        font-family: Poppins
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 20px /* 142.857% */
+    &__contact
+        color: #232536
+
+        /* Text link */
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 500
+        line-height: 24px /* 150% */
+        &::before            
+            content: url(../images/careers/footrtop/shapescontact.svg) "\00a0" "\00a0"
+
+        &::after             
+            content:"\00a0" "\00a0" "\00a0" url(../images/careers/footrtop/iconcontact.svg) 
 
 
+    
+
+    
+    
