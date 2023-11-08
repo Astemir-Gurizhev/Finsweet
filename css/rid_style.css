@@ -305,8 +305,8 @@
   display: flex;
   position: relative;
   margin-bottom: 96px;
-  width: 1280px;
-  height: 333px;
+  max-width: 1280px;
+  min-height: 333px;
 }
 .newslettern__img {
   position: absolute;
@@ -370,6 +370,92 @@
   background: #4F56FF;
 }
 
+@media (max-width: 768px) {
+  .newslettern {
+    min-height: 333px;
+  }
+  .newslettern__h2 {
+    max-width: 300px;
+  }
+  .newslettern__blue {
+    max-width: 999px;
+    min-height: 333px;
+  }
+  .newslettern__blue-right {
+    padding-top: 141px;
+    padding-bottom: 128px;
+  }
+  .newslettern__input-email {
+    max-width: 300px;
+  }
+  .newslettern {
+    max-width: 768px;
+    min-height: 333px;
+  }
+  .newslettern__blue {
+    max-width: 744px;
+    min-height: 333px;
+    background: var(--secondary-blue, #666DFF);
+  }
+  .newslettern__blue-right {
+    padding-top: 141px;
+    padding-bottom: 128px;
+  }
+  .newslettern__input-email {
+    max-width: 200px;
+  }
+  .newslettern {
+    max-width: 320px;
+    min-height: 500px;
+  }
+  .newslettern__h1 {
+    padding-top: 60px;
+    margin-bottom: 10px;
+  }
+  .newslettern__h2 {
+    padding: 0;
+    margin-bottom: 10px;
+    width: 279px;
+    color: #FFF;
+    /* H3 Heading */
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  .newslettern__blue {
+    flex-wrap: wrap;
+    max-width: 289px;
+    min-height: 500px;
+    background: var(--secondary-blue, #666DFF);
+  }
+  .newslettern__blue-right {
+    padding-top: 41px;
+    padding-bottom: 28px;
+  }
+  .newslettern__input-email {
+    max-width: 279px;
+  }
+  .newslettern__rectangle {
+    min-height: 500px;
+  }
+  .newslettern__rectange-top {
+    width: 15px;
+    min-height: 75px;
+    background: #FFA155;
+  }
+  .newslettern__rectange-center {
+    width: 15px;
+    min-height: 195px;
+    background: #FFD3AF;
+  }
+  .newslettern__rectange-bottom {
+    width: 15px;
+    min-height: 63px;
+    background: #4F56FF;
+  }
+}
 /*----------- footer top --------------*/
 .footer-top {
   width: 1278px;
