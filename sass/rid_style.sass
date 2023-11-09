@@ -304,7 +304,8 @@
         text-transform: uppercase
     &__h2
         padding-bottom: 96px
-        width: 488px
+        max-width: 500px
+        min-width: 350px
         color: #FFF
         /* H3 Heading */
         font-family: Poppins
@@ -319,11 +320,14 @@
         width: 1256px
         height: 333px
         background: var(--secondary-blue, #666DFF)
+    
+
     &__blue-right               
         padding-top: 141px
         padding-bottom: 128px
     &__input-email
-        width: 454px
+        max-width: 500px
+        min-width: 350px
         height: 64px
         color: black
     &__rectange-top
@@ -340,19 +344,20 @@
         background: #4F56FF
         
     
-@media (max-width: 768px) 
+@media (max-width: 1024px) 
     .newslettern
         // display: flex
         // position: relative
         // margin-bottom: 96px    
-        // max-width: 1024px
-        // min-width: 769px
-        min-height: 333px
-        // &__img
+        max-width: 1024px
+        min-width: 769px
+        // min-height: 333px
+        //&__img
+            
         //     position: absolute
         //     left:0
         //     top: 0
-        // &__h1
+        //&__h1
         //     padding-top: 96px
         //     margin-bottom: 12px
         //     color: #FFF
@@ -364,9 +369,10 @@
         //     line-height: 20px /* 142.857% */
         //     letter-spacing: 3px
         //     text-transform: uppercase
-        &__h2
+        //&__h2
             // padding-bottom: 96px
-            max-width: 300px
+            //max-width: 500px
+            
             // color: #FFF
             // /* H3 Heading */
             // font-family: Poppins
@@ -379,57 +385,68 @@
             // justify-content: space-around
             // align-content: center
             max-width: 999px
-            // min-width: 744px
-            min-height: 333px
+            
+            //min-height: 333px
             // background: var(--secondary-blue, #666DFF)
-        &__blue-right               
-            padding-top: 141px
-            padding-bottom: 128px
+
+        &__rectange
+            max-width: 24px
+        &__blue-left
+            max-width: 500px
+            min-width: 400px
+        &__blue-right     
+            max-width: 500px          
+        //     padding-top: 141px
+        //     padding-bottom: 128px
         &__input-email
-            max-width: 300px
+            max-width: 500px
+            
             // height: 64px
             // color: black
-        // &__rectange-top
-        //     width: 24px
+        &__rectange-top
+            width: 24px
         //     height: 75px
         //     background: #FFA155
-        // &__rectange-center
-        //     width: 24px
+        &__rectange-center
+            width: 24px
         //     height: 195px
         //     background: #FFD3AF
-        // &__rectange-bottom
-        //     width: 24px
+        &__rectange-bottom
+            width: 24px
         //     height: 63px
         //     background: #4F56FF
 
-    @media (max-width: 768px)
+@media (max-width: 768px)
     .newslettern
         // display: flex
         // position: relative
         // margin-bottom: 96px   
-        //flex-wrap: wrap 
-        max-width: 768px
-        // min-width: 426px
-        min-height: 333px
-        // &__img
+        // flex-wrap: wrap 
+        max-width: 700px
+        min-width: 426px
+        min-height: 400px
+        //&__img
+            //width: 50px 
         //     position: absolute
         //     left:0
         //     top: 0
-        // &__h1
-        //     padding-top: 96px
-        //     margin-bottom: 12px
+        &__h1
+            padding-top: 25px
+            margin-bottom: 10px
+            padding-left: 75px
         //     color: #FFF
         //     /* Caption */
         //     font-family: Poppins
-        //     font-size: 14px
+        //    font-size: 14px
         //     font-style: normal
         //     font-weight: 500
         //     line-height: 20px /* 142.857% */
         //     letter-spacing: 3px
         //     text-transform: uppercase
         &__h2
-        //     padding-bottom: 96px
-            width: 200px
+            // margin-bottom: 20px
+            padding: 0 0 0 75px
+            max-width: 500px
         //     color: #FFF
         //     /* H3 Heading */
         //     font-family: Poppins
@@ -441,93 +458,103 @@
             // display: flex
             // justify-content: space-around
             // align-content: center
+            flex-wrap: wrap
+            align-content: space-around
             max-width: 744px
             // min-width: 402px
-            min-height: 333px
-            background: var(--secondary-blue, #666DFF)
+            min-height: 450px
+            // background: var(--secondary-blue, #666DFF)
         &__blue-right               
-            padding-top: 141px
-            padding-bottom: 128px
+            padding-top: 41px
+            padding-bottom: 28px
         &__input-email
-            max-width: 200px
+            max-width: 295px
             // height: 64px
             // color: black
-        // &__rectange-top
-        //     width: 24px
-        //     height: 75px
+        &__rectange
+            max-height: 450px
+        &__rectange-top
+            width: 24px
+            height: 115px
         //     background: #FFA155
-        // &__rectange-center
-        //     width: 24px
-        //     height: 195px
+        &__rectange-center
+            width: 24px
+            height: 225px
         //     background: #FFD3AF
-        // &__rectange-bottom
-        //     width: 24px
-        //     height: 63px
+        &__rectange-bottom
+            width: 24px
+            height: 110px
         //     background: #4F56FF
-    @media (max-width: 320px)
+@media (max-width: 425px)
+    
     .newslettern
-        // display: flex
+        //display: flex
         // position: relative
         // margin-bottom: 96px   
         //flex-wrap: wrap 
-        max-width: 320px
-        min-height: 500px
-        // &__img
+        
+        max-width: 425px
+        min-height: 400px
+        &__img
+            width: 50px
         //     position: absolute
         //     left:0
         //     top: 0
         &__h1
-            padding-top: 60px
-            margin-bottom: 10px
+            padding: 0 5px
+            margin-bottom: 5px
         //     color: #FFF
         //     /* Caption */
         //     font-family: Poppins
-        //     font-size: 14px
+            font-size: 10px
         //     font-style: normal
         //     font-weight: 500
         //     line-height: 20px /* 142.857% */
         //     letter-spacing: 3px
         //     text-transform: uppercase
         &__h2
-            padding: 0
-            margin-bottom: 10px
-            width: 279px
-            color: #FFF
+            padding: 0 5px
+            max-width: 405px         
+            
+            //color: #FFF
             /* H3 Heading */
-            font-family: Poppins
-            font-size: 36px
-            font-style: normal
-            font-weight: 600
-            line-height: 54px /* 150% */
+            // font-family: Poppins
+            font-size: 24px
+            // font-style: normal
+            // font-weight: 600
+            // line-height: 54px /* 150% */
         &__blue
-            // display: flex
-            // justify-content: space-around
-            // align-content: center
-            flex-wrap: wrap
-            max-width: 289px
-            min-height: 500px
-            background: var(--secondary-blue, #666DFF)
-        &__blue-right               
-            padding-top: 41px
-            padding-bottom: 28px
+            // flex-wrap: wrap
+            flex-shrink: 2
+            // align-content: space-around      
+            // flex-direction: row      
+            max-width: 405px
+        &__blue-left
+            max-width: 405px
+            flex-shrink: 2
+        &__blue-right  
+            padding: 0 5px
+            max-width: 405px           
+            flex-shrink: 2
         &__input-email
-            max-width: 279px
+            padding: 0 5px
+            max-width: 405px
+            
             // height: 64px
             // color: black
         &__rectangle
             min-height: 500px
         &__rectange-top
-            width: 15px
-            min-height: 75px
-            background: #FFA155
+            width: 20px
+            height: 115px
+        //     background: #FFA155
         &__rectange-center
-            width: 15px
-            min-height: 195px
-            background: #FFD3AF
+            width: 20px
+            height: 225px
+        //     background: #FFD3AF
         &__rectange-bottom
-            width: 15px
-            min-height: 63px
-            background: #4F56FF
+            width: 20px
+            height: 110px
 
 /*----------- footer top --------------*/
 
