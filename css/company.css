@@ -177,30 +177,57 @@
     display: flex;
     justify-content: space-between;
 }
+.our_expertise__left-block{
+    margin-right: 140px;
+}
+.our_expertise__right-block{
+
+}
 .our_expertise__name-block{
     
 }
 .our_expertise__title{
-
+    width: 622px;
+    padding: 24px 0;
 }
 .our_expertise__text{
-
+    width: 622px;
 }
 .our_expertise__inside-rec{
-
+    display: flex;
+    justify-content: space-between;
+    color: #5D5F6D;
+    background-color: #fff;
+    padding: 32px 117px 32px 32px;
+    margin-bottom: 12px;
 }
 .our_expertise__icon{
-
+    width: 47px;
+    height: 47px;
+    margin-right: 16px;
 }
 .rec__content{
 
 }
 .inside__title{
-
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
 }
 .inside__text{
-
+    color: #5D5F6D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
 }
+/* .middle-rec{
+    padding: 12px 0;
+} */
 
 /*------------ our_vision ------------*/
 .our_vision{
@@ -229,79 +256,16 @@
 }
 
 /*------------ meet_our_team ------------*/
-.meet_our_team{
-    background: #ffffff;
-    color: #232536;
-}
 .meet_our_team-row{
-    margin-bottom: 0;
-}
-.meet_our_team__name_block{
-    margin-bottom: 16px;
-}
-.meet_our_team__title{
-    margin-bottom: 24px;
-    width: 625px;
-    height: 115px;
-}
-.meet_our_team__text{
-    margin-bottom: 64px;
-    width: 505px;
-    height: 72px;
-}
-.meet_our_team__group{
-
-}
-.meet_our_team__group_top{
     display: flex;
+    flex-wrap: wrap;
 }
-.meet_our_team__group_bottom{
-    display: flex;
-}
-.meet_our_team__team{
-
-}
-.meet_our_team__team:nth-child(1){
+.meet_our_team__item{
     position: relative;
-    z-index: 1;
+    width: 25%;
 }
-.hover__item{
+.item-hover{
     position: absolute;
-    width: 320px;
-    height: 320px;
     top: 0;
-    z-index: 5;
-    background: rgba(35, 37, 54, 0.9);
-    color: #fff;
-}
-.meet_our_group-item__title{
-    padding: 168px 0 0 48px;
-
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-
-    margin: 0 0 8px ;
-}
-.meet_our_group-item__text{
-    padding: 0 0 0 48px;
-
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-
-    margin: 0 0 24px 0;
-}
-.meet_our_group-item__icons{
-    padding: 0 0 0 48px;
-    display: flex;
-    justify-content: space-between;
-    width: 150px;
-}
-.item__icon{
-
+    left: 0;
 }
