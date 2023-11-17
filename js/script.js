@@ -1,7 +1,5 @@
 "use strict"
 
-
-
 //elem.innerHTML="What of the fucker maker showcontribute"
 let elem = document.querySelector(".ewq p")
 

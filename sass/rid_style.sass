@@ -4,7 +4,12 @@
     margin-bottom: 96px
     /*987789*/
     
-   
+/*--------  for js  ---------*/
+
+.menu-btn
+    display: none
+.header-menu-togle
+    display: none
 .careers-content    
     
     // border: 1px solid red
@@ -497,6 +502,68 @@
             width: 20px
             height: 110px
 
+    .header-menu
+        display: none
+    .menu-btn
+        display: block
+        position: relative  
+        
+        width: 30px
+        height: 30px
+        overflow: hidden
+        
+        
+    .menu-btn span 
+        width: 30px
+        height: 2px
+        position: absolute
+        
+        transform: translate(-50%, -50%)
+        background-color: #dd1515
+        transition: all 0.5s
+
+    .menu-btn span:nth-of-type(2) 
+        top: calc(50% - 5px)
+
+    .menu-btn span:nth-of-type(3) 
+        top: calc(50% + 5px)
+
+
+    /* Меняем гамбургер иконку, когда меню открыто */
+    .menu-btn.active span:nth-of-type(1) 
+        display: none
+
+    .menu-btn.active span:nth-of-type(2) 
+        top: 50%
+        transform: translate(-50%, 0%) rotate(45deg)  
+
+    .menu-btn.active span:nth-of-type(3) 
+        top: 50%
+        transform: translate(-50%, 0%) rotate(-45deg) 
+
+
+
+    .header-menu-togle
+        display: none
+        position: fixed
+        top: 0
+        right: -80px
+        // width: 100%
+        // height: 100%
+        padding: 15px
+        background: #9b937b
+        transform: translateX(-100%)
+        transition: transform 0.5s
+
+    .header-menu-togle.active
+        transform: translateX(0)
+        display: block
+
+    .header-menu-togle li
+        list-style-type: none
+
+/*------------ js togle--------------*/
+
 /*----------- footer top --------------*/
 
 .footer-top
@@ -585,8 +652,8 @@
             font-weight: 500
             line-height: 20px /* 142.857% */
     
-.footer-top-bottom
-    
+.footer-top-bottom 
+    color: red   
     &__dlf
         color: #232536
         /* Paragraph Small */
@@ -614,4 +681,7 @@
     
 
     
-    
+
+
+
+
