@@ -1,1 +1,130 @@
+/*---------------------FIRST-----------------------*/
 
+.first {
+    background: #FFE6D2;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.container {
+}
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-left {
+}
+.first-left__our {
+font-family: Poppins;
+color: black;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 12px;
+}
+.first-left__title {
+font-family: Poppins;
+color: black;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px; /* 120.833% */
+margin-bottom: 24px;
+max-width: 622px;
+}
+.first-left__text {
+font-family: Poppins;
+color: black;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 40px;
+max-width: 624px;
+}
+.first-left__btn {
+    position: relative;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.87;
+    background: #444CFC;
+    padding: 20px 32px;
+}
+.first-left__btn::before {
+    position: absolute;
+    content: '';
+    background: url('../images/first/Shapes.svg') no-repeat;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 0;
+}
+.first-left__btn::after {
+    display: inline-block;
+    content: '';
+    background: url('../images/first/arr.png') no-repeat;
+    width: 25px;
+    height: 10px;
+    margin-left: 16px;
+}
+.first-right {
+    display: flex;
+    flex-direction: column;
+
+}
+.first-right__technical {
+font-family: Poppins;
+color: black;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+}
+.first-right__develop {
+font-family: Poppins;
+color: black;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+position: relative;
+display: inline;
+}
+.first-right__develop__img {
+position: absolute;
+top: 10px;
+left: 180px;
+
+}
+
+.first-right__aws {
+font-family: Poppins;
+color: black;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+}
+.first-right__consalting {
+font-family: Poppins;
+color: black;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+}
+.first-right__info {
+font-family: Poppins;
+color: black;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+}
