@@ -1,13 +1,10 @@
-
-
-
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.header-menu-togle');
-menuBtn.addEventListener('mouseup', function(){
-    menuBtn.classList.add('active');
-	menu.classList.add('active');
-})
-menuBtn.addEventListener('mousedown', function(){
-    menuBtn.classList.remove('active');
-	menu.classList.remove('active');
-})
+menuBtn.addEventListener('click', function() {
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active');
+    })
+    // menuBtn.addEventListener('mouseover', function() {
+    //     menuBtn.classList.toggle('active');
+    //     menu.classList.toggle('hmt-hidden');
+    // })

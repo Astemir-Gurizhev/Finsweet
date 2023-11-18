@@ -507,60 +507,69 @@
     .menu-btn
         display: block
         position: relative  
-        
+        z-index: 5
         width: 30px
         height: 30px
         overflow: hidden
         
         
-    .menu-btn span 
-        width: 30px
-        height: 2px
-        position: absolute
-        
-        transform: translate(-50%, -50%)
-        background-color: #dd1515
-        transition: all 0.5s
-
-    .menu-btn span:nth-of-type(2) 
-        top: calc(50% - 5px)
-
-    .menu-btn span:nth-of-type(3) 
-        top: calc(50% + 5px)
+        span 
+            left: 30%
+            width: 30px
+            height: 2px
+            position: absolute
+            
+            transform: translate(-50%, -50%)
+            background-color: #dd1515
+            transition: all 0.5s
+            &:nth-of-type(2) 
+                top: calc(50% - 5px)
+            &:nth-of-type(3)
+                top: calc(50% + 5px)
+    
 
 
     /* Меняем гамбургер иконку, когда меню открыто */
-    .menu-btn.active span:nth-of-type(1) 
+    
+    .active span:nth-of-type(1) 
         display: none
 
-    .menu-btn.active span:nth-of-type(2) 
+    .active span:nth-of-type(2) 
+        
+        left: 50%
         top: 50%
         transform: translate(-50%, 0%) rotate(45deg)  
 
-    .menu-btn.active span:nth-of-type(3) 
+    .active span:nth-of-type(3) 
+       
+        left: 50%
         top: 50%
         transform: translate(-50%, 0%) rotate(-45deg) 
 
 
 
     .header-menu-togle
-        display: none
-        position: fixed
+        // display: none
+
+        position: absolute
+        z-index: 3
         top: 0
-        right: -80px
+        right: 0
         // width: 100%
         // height: 100%
         padding: 15px
-        background: #9b937b
+        background: #353432
         transform: translateX(-100%)
         transition: transform 0.5s
+        li
+            list-style-type: none
 
-    .header-menu-togle.active
+    // .header-menu-togle
+    .active
         transform: translateX(0)
         display: block
 
-    .header-menu-togle li
-        list-style-type: none
+    
 
 /*------------ js togle--------------*/
 
