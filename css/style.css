@@ -191,7 +191,9 @@
 .about-progress-left__item {
     margin-right: 66px;
 }
-
+.about-progress-left__item:last-child {
+    margin-right: 0;
+}
 .progress-left-item__num {
     margin-bottom: 8px;
     color: #232536;
