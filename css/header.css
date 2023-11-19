@@ -1,7 +1,9 @@
 .hidden {
     display: none;
 }
-
+body {
+    padding-top: 82px;
+}
 .overlay {
     position: absolute;
     z-index: 1;
@@ -16,6 +18,11 @@
     background: #232536;
     padding: 28px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .container {
