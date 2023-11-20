@@ -28,3 +28,19 @@
 .footer-right__item:not(:last-child) {
     margin-right: 26.67px;
 }
+
+@media(max-width: 1270px) {
+    .footer {
+        padding: 5% 5%;
+    }
+    .footer-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-left {
+       
+    }
+    .footer-left__title {
+        margin: 7% 0;
+    }
+}
